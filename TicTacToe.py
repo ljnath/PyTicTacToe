@@ -112,7 +112,7 @@ def getUserInput(playerName, gameplan):
     while int(position) not in range(1, 10):
         position = input("Hi " + playerName +", enter your desired input position (1-9) : ")
         if int(position) not in range(1, 10):
-            print("\nInvalid postion, position should be with 1 and 9")
+            print("\nInvalid postion, position should be within 1 and 9")
         elif usedPosition.count(position) > 0:
             print("\nPosition already used !")
             position = -1
