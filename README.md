@@ -1,2 +1,2 @@
 # PyTicTacToe
-### A small tic-tac-toe game written in python 3
+##### A small tic-tac-toe game written in python 3
